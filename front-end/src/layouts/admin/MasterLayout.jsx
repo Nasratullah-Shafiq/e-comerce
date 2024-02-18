@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './Navbar.jsx';
 import Sidebar from './Sidebar.jsx';
 import Footer from './Footer.jsx';
-// import MyRouter from './router/index.js';
 
 function MasterLayout() {
     return (
@@ -16,9 +15,8 @@ function MasterLayout() {
                     </div>
 
                     <div id = "layoutSidenav_content">
-                        {/*<MyRouter />*/}
                         <main>
-
+                            <h1>This is Master Layout</h1>
                         </main>
                         <Footer />
                     </div>
